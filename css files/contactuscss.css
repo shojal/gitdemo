@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image: url("../images/contact1.jfif");
+	background-size: cover;
+	color:#fff;
+	margin:100px;
+}
+.heading{
+
+	width:360px;
+	background-color:rgb(0,0,0,0.8);
+	margin:auto;
+	color:#FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align:center;
+	border-radius:15px 15px 0px 0px;
+}	
+
+.main{
+	padding: 30px;
+ 	width:300px;
+	height:160px;
+	margin:auto;
+	background-color:rgb(0,0,0,.5);
+	color: :#FFFFFF;
+	border-radius:0px 0px 15px 15px
+	
+}
+.mailus{
+	border-color: #000;
+	color:#FFFFFF;
+	background-color: #000;
+	border-radius: 90px;
+	padding: 10px 20px;
+	position:relative;
+	left:30px;
+	top:30px;
+
+}
+
+.callus{
+	border-color: #000;
+	color:#FFFFFF;
+	background-color: #000;
+	border-radius: 90px;
+	padding: 10px 40px;
+	position:relative;
+	left:70px;
+	top:30px;
+
+}
+
+.mailus:hover{
+	background-color:#FFFFFF;
+	color:#000;
+}
+
+.callus:hover{
+	background-color:#FFFFFF;
+	color:#000;
+}
+
+.back{position: relative;
+	top:-20px;
+	left:-150px;
+	background-color: #000;
+	color:#FFFFFF;
+	padding: 1px 10px;
+	border-radius: 7px;	
+}
+.back:hover{
+	background-color: #fff;
+	color:#000;
+
+}

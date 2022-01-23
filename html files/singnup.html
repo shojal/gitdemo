@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<title>register</title>
+<link rel="stylesheet" href="..\css files\signupcss.css">
+</head>
+<body>
+    <div class="heading"><h1>Sign up</h1>
+    <button  class="back" onclick="goback()"> <- </button>
+            <script type="text/javascript">
+                function goback(){
+                window.history.back();
+                    }
+            </script></div>
+    <div class="main">
+    	<form>
+    		<div id="name" >
+    			<h2 class="name">Name</h2>
+    			<input class="firstname" type="text" name="first_name"><br>
+    			<label class="firstlabel">First Name</label>
+    			<input class="lastname" type="text" name="last_name"><br>
+    			<label class="lastlabel">Last Name</label>
+    		</div>
+    		
+    		<h2 class="name">Password</h2>
+    		<input class="pass" type="password" name="pass">
+    	
+    		<h2 class="name">Retype Password</h2>
+    		<input class="repass" type="password" name="pass1">
+
+    		<h2 class="name">Gender</h2>
+    		<select class="option" name="gender">
+    		<option disabled selected="selected"> -- choose option --</option>
+    		<option> Female</option>
+    		<option> Male</option>
+    		<option> Other</option>
+    		</select>
+
+    		<h2 class="name">Phone</h2>
+    		<input class="phone" type="text" name="phone">
+
+    		<h2 class="name">Email</h2>
+    		<input class="email" type="email" name="email">
+
+    		<button type="button" name="reset" class="reset" cursor="pointer">reset</button>
+    		<button type="submit" class="submit" autofocus>submit</button>
+            <button type="button" class="login"><a href="signin.html">already have account?</a></button>
+    	    
+
+
+    	</form>
+     </div>
+    
+
+</body>
+</html>
